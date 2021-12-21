@@ -25,7 +25,7 @@ export default (G6) => {
         index++;
 
         return {
-          lineDash: [5, 12],
+          lineDash: [12, 12],
           lineDashOffset: -index,
           lineWidth: 2
         }

@@ -1,14 +1,17 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <graph msg="Welcome to Your Vue.js App"/> -->
+  <tree/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import graph from './components/graph.vue'
+import tree from './components/tree.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // graph,
+    tree
   }
 }
 </script>
